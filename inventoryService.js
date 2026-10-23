@@ -29,10 +29,3 @@ function updateInventory(inventory, productId, quantity) {
     remainingStock: updatedProduct.stock
   };
 }
-
-const inventory = [
-  { id: 101, name: 'Laptop', stock: 5 },
-  { id: 102, name: 'Keyboard', stock: 10 }
-];
-
-console.log(updateInventory(inventory, 101, 8));
